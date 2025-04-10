@@ -1,9 +1,86 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
   <diagram name="Page-1" id="LAYtUNp7teCsT3bE_3T3">
-    <mxGraphModel>
+    <mxGraphModel dx="1373" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N3LOFc4ak2wizft2iPyV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442.6500000000001" y="190" as="sourcePoint" />
+            <mxPoint x="442.6500000000001" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-4" value="Create Cluster in Streamlit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-4" target="N3LOFc4ak2wizft2iPyV-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="200" as="sourcePoint" />
+            <mxPoint x="370" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-6" target="N3LOFc4ak2wizft2iPyV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-6" value="C# API Endpoint Parses Parameters" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-7" target="N3LOFc4ak2wizft2iPyV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442.6500000000001" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-7" value="fastAPI HTTP Post" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-11" value="C# saves parameters in database" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-13" value="Python to C#" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="25" y="40" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-14" value="C# to Python with parameters" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="25" y="270" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-16" target="N3LOFc4ak2wizft2iPyV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-16" value="C# Use as template" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-17" target="N3LOFc4ak2wizft2iPyV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-17" value="Using ReportID C# creates JSON" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-19" target="N3LOFc4ak2wizft2iPyV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-19" value="Sends parameters to fastAPI Endpoint" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-21" value="fastAPI redirects to Streamlit with parameters" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-24" target="N3LOFc4ak2wizft2iPyV-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-24" value="C# View" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="213" y="620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3LOFc4ak2wizft2iPyV-26" target="N3LOFc4ak2wizft2iPyV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-26" value="C# sends ReportID to fastAPI Endpoint" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="363" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-28" value="fastAPI redirects to streamlit" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="538" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N3LOFc4ak2wizft2iPyV-30" value="C# to Python with Job ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="25" y="500" width="800" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
